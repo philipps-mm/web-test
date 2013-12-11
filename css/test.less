@@ -1,0 +1,41 @@
+@transition-prop: background-color;
+@transition-time: 2000ms;
+@transition-delay: 0ms;
+@transition-timing-function: linear;
+
+body {
+	margin: 0 auto;
+	min-height: 100%;
+  padding: 10%;
+  padding-top: 2%;
+}
+
+img {
+  opacity: 0.5;
+}
+
+div.img-0 {
+  width: 517px; 
+  height: 779px;
+}
+
+div.img-1 {
+  width: 520px; 
+  height: 388px;
+}
+
+div.test {
+  transition: @transition-prop @transition-time @transition-timing-function @transition-delay;
+  -moz-transition: @transition-prop @transition-time @transition-timing-function @transition-delay;
+  -webkit-transition: @transition-prop @transition-time @transition-timing-function @transition-delay;
+  -o-transition: @transition-prop @transition-time @transition-timing-function @transition-delay;
+  background-color: #fc3;
+}
+
+div.test-trans {
+  transition: @transition-prop @transition-time @transition-timing-function @transition-delay;
+  -moz-transition: @transition-prop @transition-time @transition-timing-function @transition-delay;
+  -webkit-transition: @transition-prop @transition-time @transition-timing-function @transition-delay;
+  -o-transition: @transition-prop @transition-time @transition-timing-function @transition-delay;
+  background-color: #f3c;
+}
