@@ -16,16 +16,16 @@ div.img-1 {
   height: 388px;
 }
 div.test {
-  transition: background-color 1000ms linear 0ms;
-  -moz-transition: background-color 1000ms linear 0ms;
-  -webkit-transition: background-color 1000ms linear 0ms;
-  -o-transition: background-color 1000ms linear 0ms;
+  transition: background-color 2000ms linear 0ms;
+  -moz-transition: background-color 2000ms linear 0ms;
+  -webkit-transition: background-color 2000ms linear 0ms;
+  -o-transition: background-color 2000ms linear 0ms;
   background-color: #fc3;
 }
 div.test-trans {
-  transition: background-color 1000ms linear 0ms;
-  -moz-transition: background-color 1000ms linear 0ms;
-  -webkit-transition: background-color 1000ms linear 0ms;
-  -o-transition: background-color 1000ms linear 0ms;
+  transition: background-color 2000ms linear 0ms;
+  -moz-transition: background-color 2000ms linear 0ms;
+  -webkit-transition: background-color 2000ms linear 0ms;
+  -o-transition: background-color 2000ms linear 0ms;
   background-color: #f3c;
 }
